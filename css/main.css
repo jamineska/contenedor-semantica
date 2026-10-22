@@ -1,0 +1,41 @@
+li
+{
+display: inline-block;
+margin: 0 3%;
+}
+ .elemento
+  {
+    border-width: 5px; /* Ancho uniforme de 5px en todos los lados */
+}
+.elemento {
+    border-style: solid; /* Borde sólido */
+}
+
+p {
+    color: rgb(6, 2, 22);
+    font-size: 1.1rem;
+} 
+.content-box {
+    width: 992x;   /* Ancho del contenido */
+    background-color: rgb(225, 230, 231); /* Color de fondo */
+}
+ .padding-box {
+    width: 200px;
+    padding: 20px; /* Padding uniforme en todos los lados */
+    background-color: lightgreen;   
+ }
+@media (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+h1{
+    text-align: center; /* Centrado */
+    font-size: 6rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
